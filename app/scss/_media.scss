@@ -1,0 +1,253 @@
+@media (max-width: 1430px) {
+  .header {
+    &__title {
+      font-size: 150px;
+      line-height: 45px;
+      letter-spacing: 150px;
+    }
+  }
+}
+@media (max-width: 1220px) {
+  .tickets {
+    &__items {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    &__item {
+      //width: 50%;
+      margin-bottom: 50px;
+    }
+    &__item:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .facts {
+    &__items {
+      flex-direction: column-reverse;
+      // position: relative;
+      .fact-2 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      .fact-4 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+    }
+    // &__note {
+    //   position: absolute;
+    //   right: 0;
+    //   top: 0;
+    // }
+  }
+  .exploration {
+    &__inner {
+      flex-wrap: wrap;
+    }
+    &__note {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    &__info {
+      display: flex;
+      flex-direction: column-reverse;
+      margin: 0 auto;
+    }
+    &__text {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+    &__img {
+      margin: 0 auto 30px;
+    }
+    &__dot {
+      left: 60%;
+    }
+  }
+}
+@media (max-width: 890px) {
+  .menu {
+    display: none;
+    transform: translateY(-500%);
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .logo {
+    z-index: 4;
+  }
+}
+@media (max-width: 820px) {
+  .exploration {
+    &__note {
+      font-size: 20px;
+      line-height: 27px;
+    }
+  }
+  .header {
+    &__title {
+      display: none;
+    }
+    &__content {
+      margin-bottom: 550px;
+    }
+    &__content-img {
+      width: 300px;
+      top: 75px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    &__box {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+    &__list {
+      text-align: center;
+    }
+    &__menu {
+      margin-bottom: 30px;
+    }
+    &__item {
+      margin: 0 auto;
+    }
+  }
+}
+@media (max-width: 590px) {
+  .trip {
+    &__title {
+      font-size: 36px;
+      line-height: 50px;
+    }
+    &__text {
+      max-width: 100%;
+      font-size: 18px;
+      line-height: 36px;
+      margin: 0 auto 15px;
+    }
+  }
+  .exploration {
+    &__img {
+      width: 100%;
+    }
+    &__dot {
+      width: 10px;
+      height: 10px;
+    }
+  }
+  .header {
+    &__bottom-info p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+    &__btn {
+      font-size: 18px;
+    }
+  }
+  .mb {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 440px) {
+  .footer{
+    &__list{
+      flex-direction: column;
+    }
+    &__item{
+      margin: 15px 0;
+    }
+  }
+  .trip {
+    &__btn {
+      font-size: 14px;
+    }
+    &__email {
+      width: 100%;
+      font-size: 14px;
+    }
+  }
+  .tickets {
+    &__item {
+      width: 100%;
+      padding: 15px 15px 15px 30px;
+    }
+  }
+  .facts {
+    &__note {
+      width: 100%;
+      font-size: 20px;
+      line-height: 34px;
+    }
+  }
+  .title {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .header {
+    &__bottom {
+      display: flex;
+      flex-direction: column;
+    }
+    &__bottom-info {
+      margin-bottom: 30px;
+    }
+  }
+  .exploration {
+    &__text {
+      font-size: 14px;
+      padding: 15px;
+      line-height: 24px;
+    }
+    &__note {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}
+@media (max-width: 360px) {
+  .trip {
+    &__title {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    &__text {
+      font-size: 16px;
+      line-height: 32px;
+      margin: 0 auto 10px;
+    }
+  }
+  .tickets {
+    &__price {
+      font-size: 24px;
+      line-height: 34px;
+    }
+    &__btn {
+      margin-top: 30px;
+      font-size: 20px;
+    }
+    &__type {
+      font-size: 18px;
+      line-height: 21px;
+      margin-bottom: 10px;
+    }
+    &__list-item {
+      font-size: 14px;
+    }
+  }
+  .logo {
+    &__img {
+      width: 100px;
+    }
+  }
+  .menu {
+    &__link {
+      font-size: 16px;
+    }
+  }
+}

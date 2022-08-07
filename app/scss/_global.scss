@@ -1,0 +1,108 @@
+@import "vars";
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  background-color: $black;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-fluid {
+  max-width: 1620px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+button,
+input,
+textarea {
+  font-family: "Lexend Deca", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.mb {
+  margin-bottom: 200px;
+}
+.title {
+  font-size: 32px;
+  line-height: 46px;
+  margin-bottom: 50px;
+}
+i {
+  padding-right: 10px;
+}
+.standart-price,
+.icon-standart {
+  color: #c6995c;
+}
+.vip-price,
+.icon-vip {
+  color: #de6331;
+}
+.exclusive-price,
+.icon-exclusive {
+  color: #bd4540;
+}
+.standart {
+  border: 1px solid #c6995c;
+  box-shadow: -1px 0px 14px 1px #c6995c inset;
+}
+.vip {
+  border: 1px solid #de6331;
+  box-shadow: -1px 0px 14px 1px #de6331 inset;
+}
+.exclusive {
+  border: 1px solid #bd4540;
+  box-shadow: -1px 0px 14px 1px #bd4540 inset;
+}
